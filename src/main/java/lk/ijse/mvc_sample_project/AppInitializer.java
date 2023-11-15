@@ -9,7 +9,7 @@ import javafx.stage.Stage;
 public class AppInitializer extends Application {
     @Override
     public void start(Stage stage) throws Exception {
-        Parent parent = FXMLLoader.load(this.getClass().getResource("/view/user_page_form.fxml"));
+        Parent parent = FXMLLoader.load(this.getClass().getResource("/view/login_page_form.fxml"));
         Scene scene = new Scene(parent);
         stage.setScene(scene);
         stage.setTitle("User Page");
